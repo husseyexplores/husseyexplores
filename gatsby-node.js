@@ -1,6 +1,7 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+/*
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
@@ -28,9 +29,7 @@ exports.createPages = async ({ graphql, actions }) => {
   )
 
   if (result.errors) {
-    // TODO: Check this!
-    // throw result.errors
-    return
+    throw result.errors
   }
 
   // Create blog posts pages.
@@ -64,3 +63,4 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
+*/

@@ -88,8 +88,14 @@ const BlogIndex = ({ data, location }) => {
 
           <Footer>
             <img src="/assets/catJAM.gif" alt="catJAM emote" width="40" />
-            <span role="img" aria-label="Kitty paws emote">🐾</span>
-            <FlippedImg src="/assets/catJAM.gif" alt="catJAM emote" width="40" />
+            <span role="img" aria-label="Kitty paws emote">
+              🐾
+            </span>
+            <FlippedImg
+              src="/assets/catJAM.gif"
+              alt="catJAM emote"
+              width="40"
+            />
           </Footer>
         </BackgroundImage>
       </LayoutContainer>
