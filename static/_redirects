@@ -1,6 +1,6 @@
-https://husseyexplores.netlify.app/*                                    https://husseyexplores.com/:splat 301
+https://husseyexplores.netlify.app/*                             https://husseyexplores.com/:splat 301
 
-/wp-login.php                                                           https://www.youtube.com/watch?v=dQw4w9WgXcQ 302
-/wp-admin.php                                                           https://www.youtube.com/watch?v=dQw4w9WgXcQ 302
+/wp-login.php                                                    https://www.youtube.com/watch?v=dQw4w9WgXcQ 302
+/wp-admin.php                                                    https://www.youtube.com/watch?v=dQw4w9WgXcQ 302
 
 /*                                                                      /index.html 302
