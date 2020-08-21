@@ -1,0 +1,12 @@
+<script>
+  function getQueryStringParam(url, name) {
+    var regexReadyName = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]')
+    var regex = new RegExp(`[\\?&]${regexReadyName}=([^&#]*)`)
+    var results = regex.exec(url)
+    return results === null
+      ? ''
+      : decodeURIComponent(results[1].replace(/\+/g, ' '))
+  }
+  var urlToRedirectTo = getQueryStringParam(location.href, 'url') || '/'
+  window.location.replace(urlToRedirectTo)
+</script>
