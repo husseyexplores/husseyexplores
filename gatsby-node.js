@@ -28,7 +28,9 @@ exports.createPages = async ({ graphql, actions }) => {
   )
 
   if (result.errors) {
-    throw result.errors
+    // TODO: Check this!
+    // throw result.errors
+    return
   }
 
   // Create blog posts pages.
