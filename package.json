@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "husseyexplores",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Personal website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Husseyexplores",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/husseyexplores/husseyexplores/issues"
   },
   "dependencies": {
     "@emotion/core": "^10.0.35",
@@ -42,15 +42,15 @@
   "devDependencies": {
     "prettier": "2.0.5"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://husseyexplores.com",
   "keywords": [
-    "gatsby"
+    "husseyexplores"
   ],
   "license": "0BSD",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/husseyexplores/husseyexplores.git"
   },
   "scripts": {
     "build": "gatsby build",
