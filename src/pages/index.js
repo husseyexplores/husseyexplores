@@ -87,15 +87,11 @@ const BlogIndex = ({ data, location }) => {
           </main>
 
           <Footer>
-            <img src="/assets/catJAM.gif" alt="catJAM emote" width="40" />
+            <img src="/assets/catJAM-small.gif" alt="catJAM emote" />
             <span role="img" aria-label="Kitty paws emote">
               🐾
             </span>
-            <FlippedImg
-              src="/assets/catJAM.gif"
-              alt="catJAM emote"
-              width="40"
-            />
+            <FlippedImg src="/assets/catJAM-small.gif" alt="catJAM emote" />
           </Footer>
         </BackgroundImage>
       </LayoutContainer>
@@ -113,7 +109,7 @@ export const pageQuery = graphql`
       sourceInstanceName: { eq: "assets" }
     ) {
       childImageSharp {
-        fluid(quality: 90, maxWidth: 1920) {
+        fluid(quality: 70, maxWidth: 1920) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
