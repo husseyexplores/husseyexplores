@@ -2,9 +2,23 @@
   command = "npm run build"
   publish = "public"
 
-## This rule redirects to an external API, signing requests with a secret
+[[redirects]]
+  from = "/wp-admin/*"
+  to = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  status = 302
+
+[[redirects]]
+  from = "/wp-login/*"
+  to = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  status = 302
+
 [[redirects]]
   from = "/api/ffns/*"
   to = "https://us-central1-husseyfns.cloudfunctions.net/app/:splat"
   status = 200
   force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 302

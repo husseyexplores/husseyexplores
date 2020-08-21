@@ -16,7 +16,6 @@ const LayoutContainer = styled.div`
   }
 `
 
-
 const Footer = styled.footer`
   position: absolute;
   bottom: 0;
@@ -42,7 +41,7 @@ const Heading = styled.h1`
   text-align: center;
   margin: 0;
   max-width: 650px;
-  font-family: 'Merienda', sans-serif;
+  font-family: "Merienda", sans-serif;
   font-size: 3rem;
 
   @media (min-width: 769px) {
@@ -63,18 +62,18 @@ const BlogIndex = ({ data, location }) => {
 
   const backgroundFluidImageStack = [
     heroFluid,
-    `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1))`
+    `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1))`,
   ].reverse()
 
   return (
     <>
-    <Global
-      styles={css`
-        body {
-          margin: 0;
-        }
-      `}
-    />
+      <Global
+        styles={css`
+          body {
+            margin: 0;
+          }
+        `}
+      />
       <SEO title="Hello, Wanderer!" />
       <LayoutContainer>
         <BackgroundImage
